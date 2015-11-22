@@ -1,0 +1,169 @@
+*{
+	/*width:100%;*/
+	/*border:1px solid black;*/
+	-moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+#container,ul,nav,body,html {
+	border:none;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+ul {
+     padding:0;
+     margin:0;
+}
+
+#container {
+     width:90%;
+     margin:0 auto;
+}
+
+/*Navigation*/
+
+nav {
+     height:60px;
+     float: right;
+}
+
+header {
+     height: 400px;
+     background-image: url("https://jimthornber.files.wordpress.com/2015/06/long-road-into-the-sunset.jpg");
+     background-size: cover;
+     color: white;
+}
+
+nav li {
+     height:40px;
+     float:left;
+     margin:10px;
+}
+
+
+/*nav li:first-child {
+     float:right;
+     display:none;
+}*/
+
+.line {
+     height:7px;
+     width:60%;
+     margin:5px auto;
+     border-radius:5px;
+}
+
+#name {
+     display: inline-block;
+     border: none;
+     font-size: 36px; 
+     font-weight: 600;
+     padding: 24px;
+
+} 
+
+}
+
+/*Main content*/
+
+header+div {
+     margin:20px 0;
+
+}
+
+body {
+     background-color: #F5F5F5;
+}
+ul li {
+     display: inline-block;
+     font-size: 16px;
+     font-weight: 600;
+
+}
+
+.clearfix {
+     padding: 16px;
+}
+
+.nav-links {
+     color: #F5F5F5;
+}
+
+.gallery-content {
+     color: #F5F5F5;
+     text-align: center;
+     padding-top: 80px;
+     display: block;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     background-color: rgba(0,0,0,0.5);
+     transition: opacity 0.5s ease;
+
+}
+
+.gallery-content-text {
+     transform: translate3d(0, 24px, 0) scaleY(0);
+     transition: transform 0.4s linear;
+     display: block;
+
+}
+
+.gallery-content:hover .gallery-content-text {
+     transform: translate3d(0, 0, 0) scaleY(1);
+
+}
+
+.hairball {
+     display: inline-block;
+     width: calc(50% - 50px);
+     height: 200px;
+     margin: 25px;
+     vertical-align: top;
+     background-image: url("http://www.fillmurray.com/g/400/300");
+     background-size: cover;
+}
+
+.main-content {
+     margin: 50px;
+
+}
+
+
+.hairball a:hover {
+     opacity: 1;
+}
+
+/*footer content*/
+
+.footer-breakup {
+     display: inline-block;
+     height: 200px;
+     margin: 25px;
+     width: calc(33.3% - 50px);
+}
+
+.footer-breakup-content {
+     border: none;
+     font-size: 24px;
+     font-weight: 600;
+}
+
+.footer-paragraph {
+     font-size: 16px;
+}
+
+
+
+
+
+
